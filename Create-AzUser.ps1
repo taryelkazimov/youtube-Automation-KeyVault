@@ -6,10 +6,10 @@ param ($Name, $Surname, $Department, $EmployeeId)
 # Key Vaulta qoşulan istifadəçi Managed İdentity hesabıdır. Key Vaulta ona Get yetkisinin verilməsi yetərlidir.
 
 ### KEY VAULT ADINI VE DAXILINDE YARATDIGIMIZ SECRET ADLARINI TEYIN EDIRIK. ###
-$vaultName = "Create-AzUser1"
-$ClientSecretName  = "ClientSecret"
-$ClientIDSecretName = "ClientId"
-$TenantIdSecretName = "TenantId"
+$vaultName = "ENTER VAULT NAME HERE"
+$ClientSecretName  = "ENTER KEY VAULT GRAPH SECRET NAME HERE"
+$ClientIDSecretName = "ENTER KEY VAULT APP ID SECRET NAME HERE"
+$TenantIdSecretName = "ENTER KEY VAULT TENANT ID SECRET NAME HERE"
 
 
 ### AZURE KEY VAULT SERVISINE QOSULUB YUXARIDA TEYIN ETDIYIMIZ DEYISENLER ESASINDA Secret, AppID ve TenantID MELUMATLARINI,
